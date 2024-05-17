@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SBA-307(2)</title>
+    <style>
+      body {
+        background-color: grey;
+      }
+
+      table,
+      tr,
+      th,
+      td {
+        border: 1px solid black;
+      }
+      .flex {
+      display: flex;
+      background-color: lightgrey;
+    }
+    .flex > div {
+      background-color: lightgrey;
+      margin: auto;
+      padding: auto;
+    }
+    </style>
+    </style>
+  </head>
+  <body>
+    <h1>Tables and Forms</h1>
+    <h2>
+      This pages showcases examples of a table and two forms (text fields and
+      submit).
+    </h2>
+    <table>
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Age</th>
+      </tr>
+      <tr style="color: yellow">
+        <td>Tweety</td>
+        <td>Bird</td>
+        <td>24</td>
+      </tr>
+      <tr style="color: pink">
+        <td>Lola</td>
+        <td>Bunny</td>
+        <td>24</td>
+      </tr>
+    </table>
+    <p>
+      The example below uses a form to call the
+      <code>action_page.php</code> page after the user hits the submit button:
+    </p>
+    <form action="action_page.php">
+      <label for="fname">First name:</label><br />
+      <input type="text" id="fname" name="fname" value="Jermal" /><br />
+      <label for="lname">Last name:</label><br />
+      <input type="text" id="lname" name="lname" value="Wynder" /><br /><br />
+      <input type="submit" value="Submit" />
+    </form>
+    <p>
+      <strong>*Note:</strong> the example above is only used to display the code
+      for a form. It doesn't actually call the listed file in the description on
+      the example. AFter pressing the submit button, simply hit the back button
+      to return to the previous page.
+    </p>
+    <div class="flex">
+        <div><a href="PageOne.html"><img src="https://media2.giphy.com/media/lraw6efBAHdPZ5RT0O/giphy.gif?cid=6c09b952lok65p4zdyxthq1r30d2250gp3t1m34ilc789gok&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=ts" alt="moving-number-1"></a></div>
+        <div><a href="PageThree.html"><img src="https://numerograph.files.wordpress.com/2020/02/number-3.jpg?w=640" alt="number-3"></a></div>
+      </div>
+  </body>
+</html>
